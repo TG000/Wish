@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal&family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/web_icon/plane/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/web_icon/plane/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/web_icon/plane/favicon-16x16.png">
+    <link rel="manifest" href="./assets/img/web_icon/plane/site.webmanifest">
+    <link rel="stylesheet" href="./source/styles/styles.css">
+    <script src="https://kit.fontawesome.com/18c690c647.js" crossorigin="anonymous"></script>
+    <script type="module" src="./source/scripts/index.js"></script>
+    <title>WISH - 2D Puzzle Game</title>
+</head>
+<body>
+    <video src="assets/video/Intro.mp4" autoplay="true" muted="true" id="intro"></video>
+
+    <div class="container">
+        <div class="warning-menu">
+            <img src="assets/img/Background/Main_Menu/warning.png" alt="Warning">
+            <div class="warn-details">
+                @4Ward Studio <br>
+                SỰ KIỆN, NHÂN VẬT VÀ TỔ CHỨC XUẤT HIỆN TRONG TRÒ CHƠI NÀY MAY MẮN ĐỀU HƯ CẤU. <br>
+                NẾU CÓ BẤT KÌ SỰ GIỐNG NHAU VỀ NGUỜI THẬT, SỐNG CHẾT, ĐỊA ĐIỂM HAY SỰ KIỆN LỊCH SỬ ĐỀU LÀ VÔ TÌNH TRÙNG HỢP. <br>
+                THE EVENTS, CHARACTERS AND ORGANIZATIONS DEPICTED IN THIS GAME FORTUNATELY ARE FICTITIOUS. ANY SIMILARITY <br>
+                TO ACTUAL PERSONS, LIVING OR DEAD, LOCALES OR TO HISTORICAL EVENTS, IS PURELY COINCIDENTAL.
+            </div>
+        </div>
+
+        <div class="warning-menu-2nd">
+            <img src="assets/img/Background/Main_Menu/warning2.png" alt="Warning">
+            <div class="warn-details-2nd">
+                Some parts of this game may be considered violent or cruel. <br>
+                This game contains scenes of explicit violence and gore. <br>
+                Not appropriate for people with heart diseases. <br> <br>
+                Vài nội dung trong trò chơi có liên quan đến bạo lực và tội ác. <br>
+                Trò chơi cũng có vài cảnh bảo lực và máu me không che. <br>
+                Không thích hợp cho nguời bị bệnh tim.
+            </div>
+        </div>
+
+        <div class="main-menu">
+            <div class="menu">
+                <div class="title">
+                    <h3>ONE</h3>
+                    <h1>WISH</h1>
+                    <h3>
+                        <i class="fa-regular fa-star"></i>
+                        B E T A <br>
+                        T E S T
+                    </h3>
+                    <p>v 1.0</p>
+                    <div class="line-break"></div>
+                </div>
+                <div class="btn-container">
+                    <button>New Game</button>
+
+                    <button id="loadgame">Continue</button>
+                    
+                    <button>Extras</button>
+                    
+                    <button>Setting</button>
+
+                    <button>About</button>
+                    
+                    <button>Exit</button>
+                </div>
+            </div>
+
+            <div class="about">
+                <div class="title">
+                    Credits
+                </div>
+                <div class="credits">
+                    <div class="cre-col-left">
+                        <div class="credits-part">
+                            <div class="cre-job">Đạo diễn</div>
+                            <div class="cre-name">4Wards</div>
+                        </div>
+                        <div class="credits-part">
+                            <div class="cre-job">Nhà sáng tạo</div>
+                            <div class="cre-name">Trần Lân Giác</div>
+                            <div class="cre-name">Tạ Huỳnh Lợi</div>
+                            <div class="cre-name">Võ Anh Tuấn</div>
+                            <div class="cre-name">Trần Thị Phương Linh</div>
+                        </div>
+                        <div class="credits-part">
+                            <div class="cre-job">Âm nhạc</div>
+                            <div class="cre-name">Tạ Huỳnh Lợi</div>
+                            <div class="cre-name">Trần Thị Phương Linh</div>
+                        </div>
+                        <div class="credits-part">
+                            <div class="cre-job">Xử lý hình ảnh</div>
+                            <div class="cre-name">Võ Anh Tuấn</div>
+                            <div class="cre-name">Trần Thị Phương Linh</div>
+                        </div>
+                    </div>
+                    <div class="cre-col-right">
+                        <div class="credits-part">
+                            <div class="cre-job">Producer</div>
+                            <div class="cre-name">4Wards</div>
+                        </div>
+                        <div class="credits-part">
+                            <div class="cre-job">Creators</div>
+                            <div class="cre-name">Gica Tran</div>
+                            <div class="cre-name">N1VE</div>
+                            <div class="cre-name">Tuan Tuan Vo Con</div>
+                            <div class="cre-name">Linh_</div>
+                        </div>
+                        <div class="credits-part">
+                            <div class="cre-job">Music</div>
+                            <div class="cre-name">N1VE</div>
+                            <div class="cre-name">Linh_</div>
+                        </div>
+                        <div class="credits-part">
+                            <div class="cre-job">Sprite Executers</div>
+                            <div class="cre-name">Tuan Tuan Vo Con</div>
+                            <div class="cre-name">Linh_</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="exit"></div>
+    </div>
+</body>
+</html>
